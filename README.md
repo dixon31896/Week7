@@ -17,6 +17,14 @@ Time spent: **X** hours spent in total
                             Then check the attachment page of the media file. 
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
+1. (Required) Username Enumeration
+  - [ ] Summary: 
+    - Vulnerability types: Username Enumeration
+    - Tested in version: 4.2 
+    
+  - [ ] GIF Walkthrough: ![](https://github.com/dixon31896/assignments/blob/master/UserEnum.gif)
+  - [ ] Steps to recreate: On wordpress you can try all kinds of usernames and passwords. If you find a correct username wordpress will give you a message saying that the username is correct but the password is not. Now someone can keep using that username and keep trying different kinds of passwords until they can find the correct one.
+  
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -26,33 +34,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+
 
 ## Assets
 
@@ -71,7 +53,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Dixon Lu]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
