@@ -12,7 +12,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.10
-  - [ ] GIF Walkthrough: ! [] (https://github.com/dixon31896/assignments/blob/master/XSS1.gif)
+  - [ ] GIF Walkthrough: ![](https://github.com/dixon31896/assignments/blob/master/XSS1.gif)
   - [ ] Steps to recreate: Have a media file with example name example<img src=a onerror=alert(document.cookie)>.jpg and upload it to wordpress. 
                             Then check the attachment page of the media file. 
   - [ ] Affected source code:
