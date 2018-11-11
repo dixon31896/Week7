@@ -1,7 +1,7 @@
 # Week7
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -25,15 +25,15 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: ![](https://github.com/dixon31896/assignments/blob/master/UserEnum.gif)
   - [ ] Steps to recreate: On wordpress you can try all kinds of usernames and passwords. If you find a correct username wordpress will give you a message saying that the username is correct but the password is not. Now someone can keep using that username and keep trying different kinds of passwords until they can find the correct one.
   
-1. (Required) Vulnerability Name or ID
+1. (Required) Authenticated Stored XSS in YouTube URL Embeds
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
+  - [ ] GIF Walkthrough: ![](https://github.com/dixon31896/assignments/blob/master/XSSutube.gif)
+  - [ ] Steps to recreate: Using this format ```[embed src='https://www.youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]``` a user will try to visit the youtube video on the post but the pop up will appear.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 
 
 ## Assets
