@@ -13,7 +13,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.10
   - [ ] GIF Walkthrough: ![](https://github.com/dixon31896/assignments/blob/master/XSS1.gif)
-  - [ ] Steps to recreate: Have a media file with example name example<img src=a onerror=alert(document.cookie)>.jpg and upload it to wordpress. 
+  - [ ] Steps to recreate: Have a media file with example name '''example<img src=a onerror=alert(document.cookie)>.jpg''' and upload it to wordpress. 
                             Then check the attachment page of the media file. 
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
