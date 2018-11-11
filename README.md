@@ -7,7 +7,7 @@ Time spent: **10** hours spent in total
 
 ## Pentesting Report
 
-1. Authenticated Stored Cross-Site Scripting via Image Filename
+## 1. Authenticated Stored Cross-Site Scripting via Image Filename
   - [ ] Summary: 
     - Vulnerability types:XSS
     - Tested in version: 4.2
@@ -17,7 +17,7 @@ Time spent: **10** hours spent in total
                             Then check the attachment page of the media file. 
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
-1. (Required) Username Enumeration
+## 2. (Required) Username Enumeration
   - [ ] Summary: 
     - Vulnerability types: Username Enumeration
     - Tested in version: 4.2 
@@ -25,7 +25,7 @@ Time spent: **10** hours spent in total
   - [ ] GIF Walkthrough: ![](https://github.com/dixon31896/assignments/blob/master/UserEnum.gif)
   - [ ] Steps to recreate: On wordpress you can try all kinds of usernames and passwords. If you find a correct username wordpress will give you a message saying that the username is correct but the password is not. Now someone can keep using that username and keep trying different kinds of passwords until they can find the correct one.
   
-1. (Required) Authenticated Stored XSS in YouTube URL Embeds
+## 3. (Required) Authenticated Stored XSS in YouTube URL Embeds
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
